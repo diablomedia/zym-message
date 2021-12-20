@@ -2,7 +2,7 @@
     "name": "diablomedia/zym-message",
     "description": "Zym_Message component",
     "type": "library",
-    "license": "New BSD",
+    "license": "BSD-3-Clause",
     "require": {
         "php": "~7.4.0 || ~8.0.0 || ~8.1.0"
     },
