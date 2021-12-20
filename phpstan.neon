@@ -1,0 +1,8 @@
+parameters:
+    checkMissingIterableValueType: false
+    level: 9
+    paths:
+        - ./
+    excludePaths:
+        - './tests/*'
+        - './vendor/*'
