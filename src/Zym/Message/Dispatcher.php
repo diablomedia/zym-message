@@ -65,7 +65,7 @@ class Zym_Message_Dispatcher
      * @param string $callback
      * @return $this
      */
-    public function attach(object $observer, $events = null, string $callback = null): self
+    public function attach(object $observer, $events = null, ?string $callback = null): self
     {
         if (!$events) {
             $events = [$this->_wildcard];
@@ -261,7 +261,7 @@ class Zym_Message_Dispatcher
      * @param string $event
      * @return $this
      */
-    public function reset(string $event = null): self
+    public function reset(?string $event = null): self
     {
         if (!$event) {
             $this->_observers = [];
